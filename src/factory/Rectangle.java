@@ -7,5 +7,8 @@ public class Rectangle implements Shape {
 		// TODO Auto-generated method stub
 		System.out.println("Inside rectangle draw "+shape);
 	}
+	public void otherFun() {
+		System.out.println("other fun");
+	}
 
 }
