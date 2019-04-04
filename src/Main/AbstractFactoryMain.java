@@ -14,6 +14,10 @@ public class AbstractFactoryMain {
 		Shape circle = factory.getShape(ShapeType.CIRCLE);
 		circle.draw(circle.toString());
 		
+		AbstractFactory shapeFactory = FactoryProducer.getFactory(true);
+		
+		Shape rounted = shapeFactory.getShape(ShapeType.RECTANGLE);
+		rounted.draw(rounted.toString());
 	}
 
 }
